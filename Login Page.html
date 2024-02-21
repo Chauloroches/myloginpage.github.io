@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<div>
+    <head>
+      <title>Login Page</title>
+      <meta charset="utf-8">
+      <meta name="description" content="This is a login page for my Website">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" href="button.css" >
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      
+    </head>
+    <body>
+      <div class="login-page">
+            <header>
+                  <div class="login">
+                  <p class="login-text">Login</p>
+                  </div>
+            </header>
+                  
+            <main class="login-input">
+                  <form onsubmit="return login()" action="message.html">
+                    <div>
+                    <input id="inputEmail" type="email" placeholder="Email">
+                    </div>
+                    <div>
+                      <input id="inputPassword" type="password" placeholder="Password">
+                    </div>
+                    <div class="showpassword-input">
+                        <input type="checkbox">
+                        <div>Show Password</div>
+                    </div>
+                    <div class="signin">
+                        <button type="submit" class="signin-button">Sign in</button>
+                    </div>
+                    
+                  </form>
+            </main>
+
+            <footer class="forgot-password-signup">
+                  <div class="forgot-password">
+                    <p class="paragraph">Forgot <span id="username-password"><a href="forgotpassword.html">Username / Password ?</a></span></p>
+                  </div>
+                  <div class="signup">
+                    <p class="paragraph">Don't have an account ? <span id="sign-up"><a href="signup.html">Sign up</a></span></p>
+                  </div>
+            </footer>
+         </div> 
+         <script src="login.js"></script>  
+    </body>
+</html>

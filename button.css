@@ -1,0 +1,137 @@
+body {
+  font-family: roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.login-page {
+  display: grid;
+  grid-template-columns: 300px;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow:  inset 5px 5px 10px rgba(0, 0, 0, 0.4);
+  border-style: none;
+  background-color: whitesmoke;
+}
+
+.login-text {
+  margin-bottom: 0px ;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#inputEmail,
+#inputPassword {
+  height: 30px;
+  width: 250px;
+  font-size: 15px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.showpassword-input {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  
+  
+}
+
+.signin {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.signin-button {
+  width: 200px;
+  background-color: rgb(31, 170, 170);
+  border: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  transition: background-color 0.15s;
+  margin-bottom: 0px;
+}
+
+.signin-button:hover {
+  background-color: brown;
+  color: rgb(31, 170, 170);
+  opacity: 0.4;
+}
+
+.signin-button:active {
+  background-color: rgba(108, 122, 30, 0.356);
+}
+
+.login {
+  color: rgb(31, 170, 170);
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.forgot-password-signup {
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.forgot-password {
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 300px;
+}
+
+.paragraph {
+  padding-left: 55px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  
+}
+#username-password{
+  color:rgb(31, 170, 170);
+  text-decoration: underline;
+  font-size: medium;
+  cursor: default;
+}
+
+#sign-up {
+  color:rgb(31, 170, 170);
+  font-size: large;
+  cursor: default;
+}
+
+#sign-up {
+  color:rgb(31, 170, 170);
+  text-decoration: underline;
+  font-size: large;
+  cursor: default;
+  font-size: 20px;
+}
+
+
